@@ -1,0 +1,4 @@
+npM create vite@latest
+cd mi-primera-app-react
+npm install
+npm run dev
