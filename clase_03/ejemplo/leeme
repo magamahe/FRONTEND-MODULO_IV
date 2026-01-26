@@ -1,0 +1,13 @@
+npm create vite@latest my-mui-app
+cd my-mui-app
+
+//desintallamos las versiones actuales de react e instalamos las versiones 18.2.0 para evitar conflictos con MUI
+npm uninstall react react-dom
+npm install react@18.2.0 react-dom@18.2.0
+
+//chequeamos
+npm list react react-dom
+
+//instalamos MUI
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
