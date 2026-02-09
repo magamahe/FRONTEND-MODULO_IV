@@ -1,0 +1,88 @@
+:root {
+  --primary: #61dafb;
+  --bg: #20232a;
+  --card-bg: #282c34;
+  --text: #ffffff;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 50px;
+  border-bottom: 2px solid var(--primary);
+}
+
+.grid-ejercicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.ejercicio-card {
+  background: var(--card-bg);
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+  border: 1px solid #3d424d;
+}
+
+.ejercicio-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary);
+}
+
+.ejercicio-card h1 {
+  font-size: 1.2rem;
+  color: var(--primary);
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Estilo para los inputs de todos los componentes */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #1c2025;
+  color: white;
+  box-sizing: border-box; /* Para que el padding no rompa el ancho */
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--primary);
+  box-shadow: 0 0 5px rgba(97, 218, 251, 0.5);
+}
+
+button {
+  background: var(--primary);
+  color: #282c34;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4fa8c7;
+}
