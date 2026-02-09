@@ -1,16 +1,89 @@
-# React + Vite
+# 📘 Clase 8 — Inputs y Eventos en React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene ejercicios prácticos para comprender cómo manejar inputs y eventos de teclado en React, aplicando conceptos fundamentales como estado, refs y validaciones.
 
-Currently, two official plugins are available:
+## 🚀 Contenidos trabajados
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Inputs controlados con useState
 
-## React Compiler
+- Inputs no controlados con useRef
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Eventos de teclado (onKeyDown)
 
-## Expanding the ESLint configuration
+- Uso del objeto evento (event)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Validaciones dinámicas en formularios
+
+## 🧩 Ejercicios
+
+### ✅ Actividad 1 — Input controlado
+
+Se implementa un input cuyo valor está sincronizado con el estado de React.
+
+Conceptos aplicados:
+
+- useState
+
+- onChange
+
+- Renderizado en tiempo real
+
+👉 Permite ver lo que el usuari0 escribe mientras lo escribe.
+
+---
+
+### ✅ Actividad 2 — Validación de solo números
+
+Input que bloquea letras usando eventos de teclado.
+
+Conceptos aplicados:
+
+- onKeyDown
+
+- event.preventDefault()
+
+- Validación dinámica
+
+👉 Solo permite números y tecla borrar.
+
+---
+
+### ✅ Actividad 3 — Input no controlado
+
+Se obtiene el valor del input usando referencias.
+
+Conceptos aplicados:
+
+- useRef
+
+Acceso directo al DOM
+
+👉 El valor se muestra al presionar un botón.
+
+---
+
+## 🎯 Objetivo del proyecto
+
+Comprender cómo React maneja la entrada de datos y eventos, diferenciando cuándo conviene usar:
+
+✔ Inputs controlados
+✔ Inputs no controlados
+✔ Validaciones en tiempo real
+
+## 🛠 Tecnologías
+
+- React
+
+- JavaScript
+
+- JSX
+
+### ✨ Aprendizajes clave
+
+- Flujo de datos en React
+
+- Manejo de eventos
+
+- Control de formularios
+
+- Validaciones básicas
