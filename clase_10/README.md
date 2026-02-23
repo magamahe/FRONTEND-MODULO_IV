@@ -39,7 +39,7 @@ Pistas:
 
 ----
 
-Actividad 3: Avanzado: Lista de tareas colaborativa
+# Actividad 3: Avanzado: Lista de tareas colaborativa
 Objetivo: Crear lista de tareas donde PadreTareas mantiene tareas y la función para agregar/eliminar; hijo AgregarTarea
 agrega; ListaTareas muestra y permite eliminar.
 Estructura de archivos sugerida:
