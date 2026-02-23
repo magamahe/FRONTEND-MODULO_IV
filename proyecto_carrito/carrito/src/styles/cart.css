@@ -1,0 +1,87 @@
+/* Fondo general tipo Apple */
+.cart-page {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Layout */
+.cart-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+/* Cards tipo Shopify */
+.card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* Botones modernos */
+.btn {
+  border: none;
+  border-radius: 999px;
+  padding: 6px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: #111827;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #000;
+  transform: scale(1.03);
+}
+
+.btn-ghost {
+  background: #f3f4f6;
+}
+
+.btn-ghost:hover {
+  background: #e5e7eb;
+}
+
+/* Item del carrito */
+.cart-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr auto;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background 0.2s ease;
+}
+
+.cart-item:hover {
+  background: #fafafa;
+}
+
+/* Animación suave al aparecer */
+.fade-in {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
