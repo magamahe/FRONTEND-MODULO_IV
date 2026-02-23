@@ -1,0 +1,27 @@
+[
+  {
+    "pregunta": "¿Qué lenguaje se usa en React?",
+    "opciones": ["Python", "Java", "JavaScript", "C#"],
+    "correcta": 2
+  },
+  {
+    "pregunta": "¿Qué hook maneja estado?",
+    "opciones": ["useFetch", "useState", "useApi", "useNode"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué hook maneja efectos?",
+    "opciones": ["useEffect", "useState", "useDOM", "useData"],
+    "correcta": 0
+  },
+  {
+    "pregunta": "¿Qué librería renderiza UI?",
+    "opciones": ["Express", "React", "Mongo", "Node"],
+    "correcta": 1
+  },
+  {
+    "pregunta": "¿Qué método mezcla array?",
+    "opciones": ["map", "filter", "sort", "push"],
+    "correcta": 2
+  }
+]
