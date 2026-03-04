@@ -1,0 +1,13 @@
+@reference "tailwindcss";
+
+.btn {
+  @apply px-6 py-2 rounded-2xl font-medium transition-all duration-300 shadow-md;
+}
+
+.error {
+  @apply bg-red-400 text-white hover:bg-red-500;
+}
+
+.success {
+  @apply bg-emerald-400 text-white hover:bg-emerald-500;
+}

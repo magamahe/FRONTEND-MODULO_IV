@@ -1,0 +1,13 @@
+@reference "tailwindcss";
+
+.item {
+  @apply p-4 rounded-xl shadow-sm font-medium transition-all duration-300;
+}
+
+.error {
+  @apply bg-red-100 text-red-700;
+}
+
+.success {
+  @apply bg-green-100 text-green-700;
+}
