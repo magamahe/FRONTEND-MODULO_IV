@@ -1,16 +1,37 @@
-# React + Vite
+# Clase 15:
+## Práctica Módulos
+## Actividades:
+### 📝 Actividad 1 – Componente Tarjeta con Estilos en Línea
+- Objetivo: Practicar el uso de style y objetos JS en React.
+- Consigna:
+Crear un componente Tarjeta.jsx que muestre:
+• Un h2 en azul, tamaño 24px
+• Un párrafo en gris
+• Un contenedor con borde negro, padding y fondo gris claro
+Importarlo y renderizarlo en App.jsx.
+Pistas: usar camelCase en las propiedades de estilo.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 📝 Actividad 2 – Botones con Módulos CSS
+- Objetivo: Practicar className y CSS Modules.
+- Consigna:
+• Crear Button.module.css con .btn, .primary y .secondary.
+• Crear Button.jsx que reciba una prop variant ("primary" por defecto) y asigne
+la clase correspondiente.
+• Renderizar varios botones en App.jsx para comprobar que los estilos no
+colisionan.
+Extra: agregar un tercer estilo .danger para practicar.
+### 📝 Actividad 3 – CardProducto con Estilos Dinámicos +
+Íconos
+Objetivo: Integrar todo lo aprendido.
+Consigna:
+• Crear CardProducto.module.css con estilos para la tarjeta, imagen, y dos estados de
+botón (.agregado y .noAgregado).
+• Crear CardProducto.jsx que muestre:
+• Imagen local del producto (guardar en /assets/).
+• Título.
+• Botón con ícono de carrito (FaShoppingCart) que cambie de color y texto según el
+estado (inCart).
+• Renderizar en App.jsx.
+Extra: permitir que el componente reciba props para título e imagen.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Ahora es momento de aplicar lo aprendido en clase
