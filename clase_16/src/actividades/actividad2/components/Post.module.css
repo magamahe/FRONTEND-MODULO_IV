@@ -1,0 +1,88 @@
+.containerPost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.postImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.containerButtons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 1px solid #ccc;
+  background-color: #ccc;
+}
+
+.button {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  gap: 4px;
+  color: #494949;
+  border: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #eeeeee;
+}
+
+.popular {
+  color: green;
+  font-weight: bolder;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+}
+
+.containerComment {
+  width: 100%;
+  position: relative;
+  padding: 1rem 0.5rem;
+}
+
+.inputComment {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.inputComment:focus {
+  outline: none;
+  border-color: #ccc;
+}
+
+.iconComment {
+  position: absolute;
+  color: #3882e4;
+  right: 20px;
+  top: 22px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.divider {
+  height: 30px;
+  border: 0.5px solid #949494;
+}
